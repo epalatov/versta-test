@@ -48,10 +48,10 @@ gulp.task('browser-sync', function() {
 
 gulp.task('scss', function() {
 	return gulp.src('app/scss/**/*.scss')
-	.pipe(scss({outputStyle: 'expand'}).on("error", notify.onError()))
+	.pipe(scss({outputStyle: 'expanded'}).on("error", notify.onError()))
 	.pipe(rename({suffix: '.min', prefix : ''}))
 	.pipe(autoprefixer(['last 15 versions']))
-	.pipe(cleanCSS()) // Опционально, закомментировать при отладке
+	//.pipe(cleanCSS())
 	.pipe(gulp.dest('app/css'))
 	.pipe(browserSync.reload({stream: true}));
 });

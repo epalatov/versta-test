@@ -1,3 +1,40 @@
-@mixin button() {
+@mixin prevent-link($color, : $blue) {
+   text-decoration: none;
+   &:link {
+      color: $color;
+      text-decoration: none;
+   }
+   &:visited {
+      color: $color;
+      text-decoration: none;
+   }
+   &:hover {
+      opacity: 0.7;
+   }
+}
 
+@mixin custom-button($font-size: 1em, $font-family: $default-font, $color: black) {
+   color: $color;
+   font-size: $font-size;
+   font-family: $font-family;
+   &:hover {
+      opacity: 0.7;
+   }
+}
+
+@mixin r-button($bgcolor: $default, $size: 1em, $color: #fff) {
+   display: inline-block;
+   padding: 20px 48px;
+   background-color: $bgcolor;
+   color: $color;
+   font-size: 20px;
+   line-height: 1em;
+   border-radius: 100px;
+   text-decoration: none;
+   cursor: pointer;
+   transition: ease-in-out 0.25s;
+   box-shadow: 0 10px 35px 0 rgba($bgcolor,0.6);
+   &:hover {
+      opacity: 0.7;
+   }
 }

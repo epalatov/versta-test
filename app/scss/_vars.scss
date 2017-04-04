@@ -1,15 +1,14 @@
 // Цвета
-$yellow:              #fce473;
-$pink:                #c71585;
-$green:               #32cd32;
-$blue:                #1d90ff;
+$default: #666;
+$blue: #2856b3;
+$black: #262626;
+$grey: #b2b2b2;
+$light-grey: #faf8f6;
 
-$primary-color:       $blue;
-$secondary-color:     $yellow;
+$primary-color: $blue;
 
 // Шрифты
-$default-font: "roboto-example", sans-serif;
-
-// Расстояние
-$mobile-space:        10px;
-$desktop-space:       35px;
+$default-font: "AvenirNextRegular", sans-serif;
+$default-font-m: "AvenirNextMedium", sans-serif;
+$default-font-db: "AvenirNextDemiBold", sans-serif;
+$default-font-b: "AvenirNextBold", sans-serif;
