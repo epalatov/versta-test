@@ -2,6 +2,7 @@
 @import "libs";
 @import "vars";
 @import "offer";
+@import "for-whom";
 
 *::-webkit-input-placeholder {
 	color: $default;
@@ -42,6 +43,11 @@ body {
 	line-height: 1.75;
 	font-family: $default-font;
 	background-color: $grey;
+}
+
+section {
+	max-width: 1400px;
+   margin: 0 auto;
 }
 
 button {
