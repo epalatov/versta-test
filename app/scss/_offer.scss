@@ -2,10 +2,8 @@
 
 .offer {
    height: 793px;
-   max-width: 1400px;
-   margin: 0 auto;
    color: white;
-   background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(54,54,54,0) 21%, rgba(255,255,255,0) 100%), url("../img/offer.jpg") no-repeat;
+   background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(54,54,54,0) 15%, rgba(255,255,255,0) 100%), url("../img/offer.jpg") no-repeat;
    background-position: center top;
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
    .container {
@@ -23,7 +21,7 @@
    }
    &__subtitle {
       margin-top: 0;
-      margin-bottom: 38px;
+      margin-bottom: 36px;
       height: 48px;
       font-size: 26px;
       font-family: $default-font;
