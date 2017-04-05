@@ -1,6 +1,63 @@
 .for-whom {
-   height: 817px;
+   height: auto;
+   min-height: 817px;
    background: url("../img/man.png") no-repeat;
    background-color: $light-grey;
    background-position: 100px bottom;
+   &__title {
+     margin-top: 0;
+     margin-bottom: 31px;
+     font-size: 46px;
+     font-family: $default-font-m;
+     font-weight: normal;
+     line-height: 61px;
+     color: $black;
+   }
+   .content-wrap {
+     float: right;
+     padding-top: 91px;
+     padding-right: 100px;
+     padding-bottom: 95px;
+     box-sizing: border-box;
+     width: 772px;
+     p {
+       margin: 0;
+     }
+   }
+   &__content {
+     margin-bottom: 41px;
+     margin-left: 2px;
+   }
+   .bullets {
+     padding-left: 30px;
+     margin-top: 21px;
+     &__item {
+       color: $blue;
+     }
+   }
+   .offer__btn {
+     margin-left: 4px;
+   }
+}
+
+.text {
+  color: $black;
+  letter-spacing: 0.19px;
+}
+
+.note {
+  box-sizing: border-box;
+  width: 460px;
+  padding: 25px 33px 25px 31px;
+  margin-top: 58px;
+  margin-left: 2px;
+  display: inline-block;
+  border: 1px dashed $black;
+  opacity: 0.25;
+  border-radius: 5px;
+  font-family: $default-font-m;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
 }

@@ -1,0 +1,23 @@
+footer {
+  height: 160px;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: white;
+  .container {
+    padding-left: 17px;
+  }
+  .footer-info {
+    font-size: 14px;
+    color: $grey;
+    letter-spacing: 0.14px;
+    margin: 0;
+    padding-top: 45px;
+    line-height: 34px;
+  }
+  a {
+    @include prevent-link($blue)
+    &.email {
+      text-decoration: underline;
+    }
+  }
+}
