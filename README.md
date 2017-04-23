@@ -29,8 +29,8 @@
 Использованние БЭМ<br>
 
 <strong><span>Срок выполнения:</span> </strong>1,5 дня.<br>
-<strong><span>Дополнительные материалы:</span> </strong><a href="https://www.dropbox.com/s/c3upxo1s9qnln7z/versta.psd?dl=0" target="_blank" rel="noopener noreferrer">Макет(psd)</a><br>
-<strong><span>Ccылка:</span> <a href="http://test-2.ifrontender.ru/" target="_blank" rel="noopener noreferrer">test2.ru</a><br>
+<strong><span>Дополнительные материалы:</span> </strong><a href="https://www.dropbox.com/s/c3upxo1s9qnln7z/versta.psd?dl=0" target="_blank" rel="noopener noreferrer">Макет(psd)</a><br><br>
+<strong><span>Ccылка:</span> <a href="http://test-2.ifrontender.ru/" target="_blank" rel="noopener noreferrer">test2.ru</a><br><br>
 <img class="alignnone size-full wp-image-449" src="http://ifrontender.ru/wp-content/uploads/2017/04/test-2.jpg" alt="" width="996" height="600" />
 
 <strong><span>Используемые технологии и библиотеки:</span></strong><br>
